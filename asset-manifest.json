@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.f10c3b73.chunk.css",
+    "main.js": "/react-gh-pages/static/js/main.2c4a9844.chunk.js",
+    "main.js.map": "/react-gh-pages/static/js/main.2c4a9844.chunk.js.map",
+    "runtime-main.js": "/react-gh-pages/static/js/runtime-main.fdccf6ad.js",
+    "runtime-main.js.map": "/react-gh-pages/static/js/runtime-main.fdccf6ad.js.map",
+    "static/js/2.eedb7c79.chunk.js": "/react-gh-pages/static/js/2.eedb7c79.chunk.js",
+    "static/js/2.eedb7c79.chunk.js.map": "/react-gh-pages/static/js/2.eedb7c79.chunk.js.map",
+    "static/js/3.5626359e.chunk.js": "/react-gh-pages/static/js/3.5626359e.chunk.js",
+    "static/js/3.5626359e.chunk.js.map": "/react-gh-pages/static/js/3.5626359e.chunk.js.map",
+    "index.html": "/react-gh-pages/index.html",
+    "static/css/main.f10c3b73.chunk.css.map": "/react-gh-pages/static/css/main.f10c3b73.chunk.css.map",
+    "static/js/2.eedb7c79.chunk.js.LICENSE.txt": "/react-gh-pages/static/js/2.eedb7c79.chunk.js.LICENSE.txt",
+    "static/media/Agile-cover.6a021328.png": "/react-gh-pages/static/media/Agile-cover.6a021328.png",
+    "static/media/Agile-icon.d637c25e.svg": "/react-gh-pages/static/media/Agile-icon.d637c25e.svg",
+    "static/media/PM.1c15130d.svg": "/react-gh-pages/static/media/PM.1c15130d.svg",
+    "static/media/value.cf771d6a.png": "/react-gh-pages/static/media/value.cf771d6a.png",
+    "static/media/values.9878898e.png": "/react-gh-pages/static/media/values.9878898e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fdccf6ad.js",
+    "static/js/2.eedb7c79.chunk.js",
+    "static/css/main.f10c3b73.chunk.css",
+    "static/js/main.2c4a9844.chunk.js"
+  ]
+}
