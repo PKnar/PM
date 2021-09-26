@@ -2,37 +2,200 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App {
+  display: flex;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/*
+.svg-container {
+  width: 150px;
 }
 
-.App-header {
-  background-color: #282c34;
+header {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
   min-height: 100vh;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.pm-svg {
+  position: absolute;
+  width: 200px;
+  bottom: 0;
+}
+
+.sideMenu {
+  width: 20%;
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  color: black;
+}
+
+ul {
+  margin: 10rem 0;
+}
+
+ul li {
+  list-style: none;
+  text-align: left;
+  margin: 2rem 0;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  display: flex;
+}
+
+li img {
+  width: 18px;
+  margin-right: 0.5rem;
+}
+
+.cardsContainer {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background-color: red;
+  width: calc(100% / 4);
+  min-width: 200px;
+  margin: 0.5rem;
+}
+
+.selected {
+  background-color: rgb(243, 145, 54);
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border-radius: 5px 0 0 5px;
+  color: black;
+} */
+
+/* NEw */
+
+/* SVG COVER */
+
+header {
+  min-height: 100vh;
+  display: flex;
+}
+
+.content-wrapper {
+  min-width: 50%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-wrapper h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-left: -30px;
+}
+
+.content-wrapper p {
+  text-align: left;
+
+  width: 400px;
+}
+
+.agile-svg {
+  width: 50%;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.agile-svg img {
+  width: 100%;
+}
+
+/* NAV */
+
+.sideMenu {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sideMenu ul {
+  list-style: none;
+  display: flex;
+  margin-right: 1rem;
+  margin: 2rem 4rem;
+}
+
+.sideMenu ul li {
+  margin: 0 1rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+/* Values */
+
+#values img {
+  width: 400px;
+}
+
+/*priciples */
+.principle-sec {
+  height: 100vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.principle-sec h1 {
+  margin-top: 10rem;
+}
+
+.principle-sec h5 {
+  text-align: left;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  padding: 3rem;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.principle-sec .card {
+  width: 200px;
+  height: 300px;
+  background: linear-gradient(to bottom, rgb(10, 255, 141), white);
+  margin: 0.5rem;
+  padding: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
+/* .values-cards {
+  display: flex;
+  width: 100%;
+} */
+
+/* .values-cards .card {
+  width: 250px;
+  height: 250px;
+  background-color: purple;
+  margin: 1rem;
+} */
+
+.hide {
+  display: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.show {
+  display: block;
 }

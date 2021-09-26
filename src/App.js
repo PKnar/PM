@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import ContentContainer from "./components/contentContainer/ContentContainer";
+import SideMenu from "./components/sideMenu/SideMenu";
+import { useState } from "react";
 function App() {
+  let [chosenCategory, setChosenCategory] = useState("introduction");
+
+  let updateCategory = (value) => {
+    setChosenCategory(value);
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <SideMenu updateCategory={updateCategory} />
+      <ContentContainer chosenCategory={chosenCategory} />
     </div>
   );
 }
